@@ -10,12 +10,12 @@ package Modelo;
  * @author Paty Ramirez
  */
 public class producto {
-    private int idproducto;
-     private String numero;
-     private String cantidad;
-     private String costo;
-     private String categoria;
-     private String situacion;
+    int idproducto;
+     String numero;
+     String cantidad;
+     String costo;
+     String categoria;
+     String situacion;
 
     public producto() {
     }
@@ -28,10 +28,10 @@ public class producto {
         this.categoria = categoria;
         this.situacion = situacion;
     }
-
+    
     public String getSituacion() {
         return situacion;
-    }
+}
 
     public void setSituacion(String situacion) {
         this.situacion = situacion;
